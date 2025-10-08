@@ -1,0 +1,117 @@
+nohup: ignoring input
+Server initialized for eventlet.
+INFO:engineio.server:Server initialized for eventlet.
+INFO:werkzeug: * Restarting with stat
+Server initialized for eventlet.
+INFO:engineio.server:Server initialized for eventlet.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 554-016-527
+(1058934) wsgi starting up on http://0.0.0.0:5000
+(1058934) accepted ('156.221.206.61', 51964)
+(1058934) accepted ('156.221.206.61', 64583)
+(1058934) accepted ('156.221.206.61', 64581)
+(1058934) accepted ('156.221.206.61', 51986)
+(1058934) accepted ('156.221.206.61', 51988)
+156.221.206.61 - - [29/Apr/2025 02:19:33] "GET /assets/chunk-RZ5BOZE2-35e2bc1b.js HTTP/1.1" 200 1103 0.002095
+156.221.206.61 - - [29/Apr/2025 02:19:33] "GET /assets/channel-9332bcbb.js HTTP/1.1" 200 507 0.000753
+156.221.206.61 - - [29/Apr/2025 02:19:33] "GET /assets/flowDiagram-4HSFHLVR-b1281223.js HTTP/1.1" 200 61213 0.104626
+156.221.206.61 - - [29/Apr/2025 02:19:34] "GET /assets/graph-2b3f2a4a.js HTTP/1.1" 200 6323 0.001121
+156.221.206.61 - - [29/Apr/2025 02:19:34] "GET /assets/dagre-OKDRZEBW-6985a69b.js HTTP/1.1" 200 11641 0.001104
+(1058934) accepted ('156.221.206.61', 64585)
+156.221.206.61 - - [29/Apr/2025 02:19:34] "GET /assets/layout-2f39dda4.js HTTP/1.1" 200 27826 0.001246
+156.221.206.61 - - [29/Apr/2025 02:19:34] "GET /assets/clone-f259b48c.js HTTP/1.1" 200 488 0.000848
+156.221.206.61 - - [29/Apr/2025 02:19:34] "GET /assets/_baseUniq-34f98b16.js HTTP/1.1" 200 12642 0.001262
+INFO:backend.document_processor:DocumentProcessor initialized with OpenAI API key
+INFO:backend.document_processor:Starting document processing: /home/ec2-user/AI-powered-BPM/backend/uploads/IT_Demand_Process.vsdx (type: vsdx)
+INFO:backend.document_processor:Extracting information from Visio file: /home/ec2-user/AI-powered-BPM/backend/uploads/IT_Demand_Process.vsdx
+INFO:backend.document_processor:Successfully extracted VSDX to /tmp/tmpxvhpt9nx
+INFO:backend.document_processor:Found pages directory: /tmp/tmpxvhpt9nx/visio/pages
+INFO:backend.document_processor:Processing page file: /tmp/tmpxvhpt9nx/visio/pages/page1.xml
+INFO:backend.document_processor:No shapes found with namespace. Trying alternative approach.
+INFO:backend.document_processor:Extracted 48 shapes from page page1
+INFO:backend.document_processor:Processing page file: /tmp/tmpxvhpt9nx/visio/pages/pages.xml
+INFO:backend.document_processor:No shapes found with namespace. Trying alternative approach.
+INFO:backend.document_processor:Extracted 0 shapes from page pages
+INFO:backend.document_processor:Created structured process with 40 steps
+INFO:backend.document_processor:Extracted 11064 characters from Visio file
+INFO:backend.document_processor:Extracted 11064 characters from document
+INFO:backend.document_processor:Preparing OpenAI request
+INFO:backend.document_processor:Sending request to OpenAI API
+INFO:backend.document_processor:Received response from OpenAI API
+INFO:backend.document_processor:Parsing OpenAI response as JSON
+INFO:backend.document_processor:Successfully extracted process with 24 steps
+156.221.206.61 - - [29/Apr/2025 02:20:22] "POST /api/asis/extract-from-document HTTP/1.1" 200 18240 49.214073
+(1058934) accepted ('156.221.206.61', 64615)
+(1058934) accepted ('156.221.206.61', 64651)
+(1058934) accepted ('156.221.206.61', 64659)
+(1058934) accepted ('156.221.206.61', 52052)
+(1058934) accepted ('156.221.206.61', 52146)
+(1058934) accepted ('213.32.32.87', 55183)
+213.32.32.87 - - [29/Apr/2025 03:42:18] code 400, message Bad request version ('À#À¬À®À+À')
+213.32.32.87 - - [29/Apr/2025 03:42:18] "\x16\x03\x03\x01¥\x01\x00\x01¡\x03\x03ñÀí\x9f-¡\x19¿ºÑ\x8e©¶C\x9d\x13Ôkï\x16~±\x93>\x82¬Buâù8\x7f ñìxú§BÖ\x03ï½(½³;°\x1dÏÉ \x03Äj\x02\x83\x13ë\x1b\x9b\x8d²;2\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" 400 -
+(1058934) accepted ('52.167.144.196', 58411)
+52.167.144.196 - - [29/Apr/2025 08:21:34] "GET /bpm HTTP/1.1" 200 916 0.001342
+(1058934) accepted ('34.216.238.33', 43664)
+34.216.238.33 - - [29/Apr/2025 11:26:25] "GET / HTTP/1.1" 200 935 0.001656
+(1058934) accepted ('3.17.75.153', 59540)
+(1058934) accepted ('3.17.75.153', 34876)
+3.17.75.153 - - [29/Apr/2025 13:31:35] "GET / HTTP/1.1" 200 916 0.001021
+(1058934) accepted ('3.17.75.153', 55902)
+3.17.75.153 - - [29/Apr/2025 13:34:18] "GET / HTTP/1.1" 200 916 0.000952
+(1058934) accepted ('3.17.75.153', 55036)
+3.17.75.153 - - [29/Apr/2025 13:38:31] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.17.75.153 - - [29/Apr/2025 13:38:31] "SSH-2.0-Go" 400 -
+(1058934) accepted ('156.221.206.61', 58967)
+156.221.206.61 - - [29/Apr/2025 14:01:02] "GET /assets/clone-f259b48c.js HTTP/1.1" 200 488 0.001212
+(1058934) accepted ('156.221.206.61', 59025)
+(1058934) accepted ('156.201.95.227', 52193)
+156.201.95.227 - - [29/Apr/2025 14:02:58] "GET /favicon.ico HTTP/1.1" 200 940 0.001109
+(1058934) accepted ('156.221.206.61', 59121)
+(1058934) accepted ('156.221.206.61', 64010)
+(1058934) accepted ('156.221.206.61', 59139)
+156.221.206.61 - - [29/Apr/2025 14:04:36] "GET /api/download-template HTTP/1.1" 500 337 0.000814
+(1058934) accepted ('156.221.206.61', 59165)
+156.221.206.61 - - [29/Apr/2025 14:05:03] "GET /bpm HTTP/1.1" 200 940 0.001720
+156.221.206.61 - - [29/Apr/2025 14:05:04] "GET /assets/index-ec00dbb9.js HTTP/1.1" 304 288 0.001053
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/flowDiagram-4HSFHLVR-b1281223.js HTTP/1.1" 304 301 0.001163
+(1058934) accepted ('156.221.206.61', 59177)
+(1058934) accepted ('156.221.206.61', 64056)
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/channel-9332bcbb.js HTTP/1.1" 304 285 0.001140
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/chunk-RZ5BOZE2-35e2bc1b.js HTTP/1.1" 304 293 0.000825
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/dagre-OKDRZEBW-6985a69b.js HTTP/1.1" 304 295 0.001159
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/_baseUniq-34f98b16.js HTTP/1.1" 304 290 0.001156
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/graph-2b3f2a4a.js HTTP/1.1" 304 285 0.000851
+(1058934) accepted ('156.221.206.61', 59179)
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/_basePickBy-19b265f9.js HTTP/1.1" 304 291 0.001100
+156.221.206.61 - - [29/Apr/2025 14:05:12] "GET /assets/clone-f259b48c.js HTTP/1.1" 304 283 0.000954
+(1058934) accepted ('156.221.206.61', 59183)
+(1058934) accepted ('156.221.206.61', 64146)
+(1058934) accepted ('156.221.206.61', 64244)
+(1058934) accepted ('156.221.206.61', 59361)
+156.221.206.61 - - [29/Apr/2025 14:08:50] "GET /bpm HTTP/1.1" 304 240 0.001279
+156.221.206.61 - - [29/Apr/2025 14:08:50] "GET /assets/index-ec00dbb9.js HTTP/1.1" 304 288 0.001085
+(1058934) accepted ('156.221.206.61', 59369)
+(1058934) accepted ('156.221.206.61', 59367)
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/channel-9332bcbb.js HTTP/1.1" 304 285 0.001069
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/chunk-RZ5BOZE2-35e2bc1b.js HTTP/1.1" 304 293 0.001227
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/dagre-OKDRZEBW-6985a69b.js HTTP/1.1" 304 295 0.001066
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/_baseUniq-34f98b16.js HTTP/1.1" 304 290 0.001014
+(1058934) accepted ('156.221.206.61', 64260)
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/layout-2f39dda4.js HTTP/1.1" 304 287 0.001101
+156.221.206.61 - - [29/Apr/2025 14:08:57] "GET /assets/_basePickBy-19b265f9.js HTTP/1.1" 304 291 0.000891
+(1058934) accepted ('156.221.206.61', 59377)
+(1058934) accepted ('156.221.206.61', 64266)
+156.221.206.61 - - [29/Apr/2025 14:09:15] "GET /bpm HTTP/1.1" 304 240 0.001082
+156.221.206.61 - - [29/Apr/2025 14:09:15] "GET /assets/index-ec00dbb9.js HTTP/1.1" 304 288 0.001261
+156.221.206.61 - - [29/Apr/2025 14:09:15] "GET /assets/index-1f31cf11.css HTTP/1.1" 304 250 0.000921
+156.221.206.61 - - [29/Apr/2025 14:09:16] "GET /favicon.ico HTTP/1.1" 304 240 0.001102
+156.221.206.61 - - [29/Apr/2025 14:09:22] "GET /assets/flowDiagram-4HSFHLVR-b1281223.js HTTP/1.1" 304 301 0.001232
+156.221.206.61 - - [29/Apr/2025 14:09:22] "GET /assets/chunk-RZ5BOZE2-35e2bc1b.js HTTP/1.1" 304 293 0.001114
+156.221.206.61 - - [29/Apr/2025 14:09:22] "GET /assets/graph-2b3f2a4a.js HTTP/1.1" 304 285 0.001210
+156.221.206.61 - - [29/Apr/2025 14:09:22] "GET /assets/_baseUniq-34f98b16.js HTTP/1.1" 304 290 0.000771
+(1058934) accepted ('156.221.206.61', 64276)
+156.221.206.61 - - [29/Apr/2025 14:09:23] "GET /assets/clone-f259b48c.js HTTP/1.1" 304 283 0.001126
+(1058934) accepted ('156.221.206.61', 59453)
+(1058934) accepted ('156.221.206.61', 59553)
+(1058934) accepted ('156.221.206.61', 64414)
+(1058934) accepted ('156.221.206.61', 64434)
